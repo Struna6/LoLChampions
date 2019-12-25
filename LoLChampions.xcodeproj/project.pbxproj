@@ -3,14 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC960EF2EE31CCF4B7413AA8 /* Pods_LoLChampionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B47C0E475B77B56FBADF070 /* Pods_LoLChampionsTests.framework */; };
+		C519D498727E9EFD8DCBE657 /* Pods_LoLChampions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48BF2E7518FC5819611B5DC /* Pods_LoLChampions.framework */; };
+		F907629F23B3EC6E000C4465 /* ChampionsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907629E23B3EC6E000C4465 /* ChampionsTableView.swift */; };
+		F94FCE6D23B3F260006A25AD /* FakeChampion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FCE6C23B3F260006A25AD /* FakeChampion.swift */; };
+		F94FCE6F23B3F557006A25AD /* Champion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FCE6E23B3F557006A25AD /* Champion.swift */; };
+		F94FCE7123B3F8CD006A25AD /* ChampionLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FCE7023B3F8CD006A25AD /* ChampionLoader.swift */; };
 		F9714A9F23B3E7510083CCA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9714A9E23B3E7510083CCA4 /* AppDelegate.swift */; };
 		F9714AA123B3E7510083CCA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9714AA023B3E7510083CCA4 /* SceneDelegate.swift */; };
-		F9714AA323B3E7510083CCA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9714AA223B3E7510083CCA4 /* ViewController.swift */; };
-		F9714AA623B3E7510083CCA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9714AA423B3E7510083CCA4 /* Main.storyboard */; };
+		F9714AA323B3E7510083CCA4 /* ChampionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9714AA223B3E7510083CCA4 /* ChampionsViewController.swift */; };
 		F9714AA823B3E7520083CCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9714AA723B3E7520083CCA4 /* Assets.xcassets */; };
 		F9714AAB23B3E7520083CCA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9714AA923B3E7520083CCA4 /* LaunchScreen.storyboard */; };
 		F9714AB623B3E7520083CCA4 /* LoLChampionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9714AB523B3E7520083CCA4 /* LoLChampionsTests.swift */; };
@@ -27,11 +32,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		113EB9DAB388F89BA1A3A496 /* Pods-LoLChampionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoLChampionsTests.release.xcconfig"; path = "Target Support Files/Pods-LoLChampionsTests/Pods-LoLChampionsTests.release.xcconfig"; sourceTree = "<group>"; };
+		160458B604CEE811C375477F /* Pods-LoLChampions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoLChampions.release.xcconfig"; path = "Target Support Files/Pods-LoLChampions/Pods-LoLChampions.release.xcconfig"; sourceTree = "<group>"; };
+		431511746D900DF7287781E6 /* Pods-LoLChampionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoLChampionsTests.debug.xcconfig"; path = "Target Support Files/Pods-LoLChampionsTests/Pods-LoLChampionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5960F8BF0BCA9CDB6C366120 /* Pods-LoLChampions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoLChampions.debug.xcconfig"; path = "Target Support Files/Pods-LoLChampions/Pods-LoLChampions.debug.xcconfig"; sourceTree = "<group>"; };
+		6B47C0E475B77B56FBADF070 /* Pods_LoLChampionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoLChampionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48BF2E7518FC5819611B5DC /* Pods_LoLChampions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoLChampions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F907629E23B3EC6E000C4465 /* ChampionsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsTableView.swift; sourceTree = "<group>"; };
+		F94FCE6C23B3F260006A25AD /* FakeChampion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeChampion.swift; sourceTree = "<group>"; };
+		F94FCE6E23B3F557006A25AD /* Champion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champion.swift; sourceTree = "<group>"; };
+		F94FCE7023B3F8CD006A25AD /* ChampionLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionLoader.swift; sourceTree = "<group>"; };
 		F9714A9B23B3E7510083CCA4 /* LoLChampions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoLChampions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9714A9E23B3E7510083CCA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9714AA023B3E7510083CCA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F9714AA223B3E7510083CCA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F9714AA523B3E7510083CCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9714AA223B3E7510083CCA4 /* ChampionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsViewController.swift; sourceTree = "<group>"; };
 		F9714AA723B3E7520083CCA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9714AAA23B3E7520083CCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9714AAC23B3E7520083CCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C519D498727E9EFD8DCBE657 /* Pods_LoLChampions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +67,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC960EF2EE31CCF4B7413AA8 /* Pods_LoLChampionsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E4F53B793B21617ED93FF96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C48BF2E7518FC5819611B5DC /* Pods_LoLChampions.framework */,
+				6B47C0E475B77B56FBADF070 /* Pods_LoLChampionsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9010A807FB236D8A59848987 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5960F8BF0BCA9CDB6C366120 /* Pods-LoLChampions.debug.xcconfig */,
+				160458B604CEE811C375477F /* Pods-LoLChampions.release.xcconfig */,
+				431511746D900DF7287781E6 /* Pods-LoLChampionsTests.debug.xcconfig */,
+				113EB9DAB388F89BA1A3A496 /* Pods-LoLChampionsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F907629A23B3E979000C4465 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F94FCE6E23B3F557006A25AD /* Champion.swift */,
+				F94FCE7023B3F8CD006A25AD /* ChampionLoader.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F907629B23B3E97F000C4465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F907629E23B3EC6E000C4465 /* ChampionsTableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F907629C23B3E988000C4465 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F9714A9E23B3E7510083CCA4 /* AppDelegate.swift */,
+				F9714AA023B3E7510083CCA4 /* SceneDelegate.swift */,
+				F9714AA223B3E7510083CCA4 /* ChampionsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F907629D23B3E99D000C4465 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		F9714A9223B3E7510083CCA4 = {
 			isa = PBXGroup;
 			children = (
 				F9714A9D23B3E7510083CCA4 /* LoLChampions */,
 				F9714AB423B3E7520083CCA4 /* LoLChampionsTests */,
 				F9714A9C23B3E7510083CCA4 /* Products */,
+				9010A807FB236D8A59848987 /* Pods */,
+				1E4F53B793B21617ED93FF96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +151,10 @@
 		F9714A9D23B3E7510083CCA4 /* LoLChampions */ = {
 			isa = PBXGroup;
 			children = (
-				F9714A9E23B3E7510083CCA4 /* AppDelegate.swift */,
-				F9714AA023B3E7510083CCA4 /* SceneDelegate.swift */,
-				F9714AA223B3E7510083CCA4 /* ViewController.swift */,
-				F9714AA423B3E7510083CCA4 /* Main.storyboard */,
+				F907629D23B3E99D000C4465 /* Utilities */,
+				F907629C23B3E988000C4465 /* Controller */,
+				F907629B23B3E97F000C4465 /* View */,
+				F907629A23B3E979000C4465 /* Model */,
 				F9714AA723B3E7520083CCA4 /* Assets.xcassets */,
 				F9714AA923B3E7520083CCA4 /* LaunchScreen.storyboard */,
 				F9714AAC23B3E7520083CCA4 /* Info.plist */,
@@ -94,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				F9714AB523B3E7520083CCA4 /* LoLChampionsTests.swift */,
+				F94FCE6C23B3F260006A25AD /* FakeChampion.swift */,
 				F9714AB723B3E7520083CCA4 /* Info.plist */,
 			);
 			path = LoLChampionsTests;
@@ -106,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9714ABA23B3E7520083CCA4 /* Build configuration list for PBXNativeTarget "LoLChampions" */;
 			buildPhases = (
+				56E3E90C2D5F1541D251322F /* [CP] Check Pods Manifest.lock */,
 				F9714A9723B3E7510083CCA4 /* Sources */,
 				F9714A9823B3E7510083CCA4 /* Frameworks */,
 				F9714A9923B3E7510083CCA4 /* Resources */,
+				602619DAF63881B47600ADA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9714ABD23B3E7520083CCA4 /* Build configuration list for PBXNativeTarget "LoLChampionsTests" */;
 			buildPhases = (
+				D8B12096F1095DA1BF511A7D /* [CP] Check Pods Manifest.lock */,
 				F9714AAD23B3E7520083CCA4 /* Sources */,
 				F9714AAE23B3E7520083CCA4 /* Frameworks */,
 				F9714AAF23B3E7520083CCA4 /* Resources */,
@@ -182,7 +258,6 @@
 			files = (
 				F9714AAB23B3E7520083CCA4 /* LaunchScreen.storyboard in Resources */,
 				F9714AA823B3E7520083CCA4 /* Assets.xcassets in Resources */,
-				F9714AA623B3E7510083CCA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,12 +270,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56E3E90C2D5F1541D251322F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoLChampions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		602619DAF63881B47600ADA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoLChampions/Pods-LoLChampions-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoLChampions/Pods-LoLChampions-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoLChampions/Pods-LoLChampions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B12096F1095DA1BF511A7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoLChampionsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9714A9723B3E7510083CCA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9714AA323B3E7510083CCA4 /* ViewController.swift in Sources */,
+				F94FCE6F23B3F557006A25AD /* Champion.swift in Sources */,
+				F907629F23B3EC6E000C4465 /* ChampionsTableView.swift in Sources */,
+				F9714AA323B3E7510083CCA4 /* ChampionsViewController.swift in Sources */,
+				F94FCE7123B3F8CD006A25AD /* ChampionLoader.swift in Sources */,
 				F9714A9F23B3E7510083CCA4 /* AppDelegate.swift in Sources */,
 				F9714AA123B3E7510083CCA4 /* SceneDelegate.swift in Sources */,
 			);
@@ -211,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9714AB623B3E7520083CCA4 /* LoLChampionsTests.swift in Sources */,
+				F94FCE6D23B3F260006A25AD /* FakeChampion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +368,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F9714AA423B3E7510083CCA4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F9714AA523B3E7510083CCA4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F9714AA923B3E7520083CCA4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,6 +495,7 @@
 		};
 		F9714ABB23B3E7520083CCA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5960F8BF0BCA9CDB6C366120 /* Pods-LoLChampions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +514,7 @@
 		};
 		F9714ABC23B3E7520083CCA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160458B604CEE811C375477F /* Pods-LoLChampions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +533,7 @@
 		};
 		F9714ABE23B3E7520083CCA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431511746D900DF7287781E6 /* Pods-LoLChampionsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +556,7 @@
 		};
 		F9714ABF23B3E7520083CCA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113EB9DAB388F89BA1A3A496 /* Pods-LoLChampionsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
