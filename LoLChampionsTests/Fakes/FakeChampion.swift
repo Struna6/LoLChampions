@@ -9,8 +9,8 @@
 import XCTest
 @testable import LoLChampions
 
-class FakeChampion{
-    let champion = {
-        return Champion(name: "TestChamp", roles: [.Top], type: [.AD])
+class FakeChampion: ChampionLoaderImpl{
+    override func loadChampions(completion: @escaping ([Champion]?) -> Void) {
+        completion([Champion(name: "Aatrox", roles: [.Bottom], type: [.AD])])
     }
 }

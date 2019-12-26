@@ -19,6 +19,11 @@
 		F9714AA823B3E7520083CCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9714AA723B3E7520083CCA4 /* Assets.xcassets */; };
 		F9714AAB23B3E7520083CCA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9714AA923B3E7520083CCA4 /* LaunchScreen.storyboard */; };
 		F9714AB623B3E7520083CCA4 /* LoLChampionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9714AB523B3E7520083CCA4 /* LoLChampionsTests.swift */; };
+		F9D2C47B23B4C6BF00466D2D /* ChampionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2C47A23B4C6BF00466D2D /* ChampionTableViewCell.swift */; };
+		F9D2C47D23B4CC5900466D2D /* LolChampionTestsChampionFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2C47C23B4CC5900466D2D /* LolChampionTestsChampionFlow.swift */; };
+		F9D2C48123B4CD2700466D2D /* SpyChampion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2C48023B4CD2700466D2D /* SpyChampion.swift */; };
+		F9D2C48423B501ED00466D2D /* StringRemoveCharsetsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2C48323B501ED00466D2D /* StringRemoveCharsetsExtension.swift */; };
+		F9D2C48623B5074D00466D2D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2C48523B5074D00466D2D /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,11 @@
 		F9714AB123B3E7520083CCA4 /* LoLChampionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoLChampionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9714AB523B3E7520083CCA4 /* LoLChampionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoLChampionsTests.swift; sourceTree = "<group>"; };
 		F9714AB723B3E7520083CCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D2C47A23B4C6BF00466D2D /* ChampionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionTableViewCell.swift; sourceTree = "<group>"; };
+		F9D2C47C23B4CC5900466D2D /* LolChampionTestsChampionFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolChampionTestsChampionFlow.swift; sourceTree = "<group>"; };
+		F9D2C48023B4CD2700466D2D /* SpyChampion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyChampion.swift; sourceTree = "<group>"; };
+		F9D2C48323B501ED00466D2D /* StringRemoveCharsetsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRemoveCharsetsExtension.swift; sourceTree = "<group>"; };
+		F9D2C48523B5074D00466D2D /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				F907629E23B3EC6E000C4465 /* ChampionsTableView.swift */,
+				F9D2C47A23B4C6BF00466D2D /* ChampionTableViewCell.swift */,
+				F9D2C48523B5074D00466D2D /* LoadingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -124,6 +136,7 @@
 		F907629D23B3E99D000C4465 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				F9D2C48223B501DC00466D2D /* Extensions */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -165,11 +178,37 @@
 		F9714AB423B3E7520083CCA4 /* LoLChampionsTests */ = {
 			isa = PBXGroup;
 			children = (
+				F9D2C47F23B4CD1300466D2D /* Spies */,
+				F9D2C47E23B4CD0500466D2D /* Fakes */,
 				F9714AB523B3E7520083CCA4 /* LoLChampionsTests.swift */,
-				F94FCE6C23B3F260006A25AD /* FakeChampion.swift */,
+				F9D2C47C23B4CC5900466D2D /* LolChampionTestsChampionFlow.swift */,
 				F9714AB723B3E7520083CCA4 /* Info.plist */,
 			);
 			path = LoLChampionsTests;
+			sourceTree = "<group>";
+		};
+		F9D2C47E23B4CD0500466D2D /* Fakes */ = {
+			isa = PBXGroup;
+			children = (
+				F94FCE6C23B3F260006A25AD /* FakeChampion.swift */,
+			);
+			path = Fakes;
+			sourceTree = "<group>";
+		};
+		F9D2C47F23B4CD1300466D2D /* Spies */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2C48023B4CD2700466D2D /* SpyChampion.swift */,
+			);
+			path = Spies;
+			sourceTree = "<group>";
+		};
+		F9D2C48223B501DC00466D2D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2C48323B501ED00466D2D /* StringRemoveCharsetsExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,12 +378,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D2C47B23B4C6BF00466D2D /* ChampionTableViewCell.swift in Sources */,
 				F94FCE6F23B3F557006A25AD /* Champion.swift in Sources */,
 				F907629F23B3EC6E000C4465 /* ChampionsTableView.swift in Sources */,
 				F9714AA323B3E7510083CCA4 /* ChampionsViewController.swift in Sources */,
 				F94FCE7123B3F8CD006A25AD /* ChampionLoader.swift in Sources */,
+				F9D2C48423B501ED00466D2D /* StringRemoveCharsetsExtension.swift in Sources */,
 				F9714A9F23B3E7510083CCA4 /* AppDelegate.swift in Sources */,
 				F9714AA123B3E7510083CCA4 /* SceneDelegate.swift in Sources */,
+				F9D2C48623B5074D00466D2D /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +395,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9714AB623B3E7520083CCA4 /* LoLChampionsTests.swift in Sources */,
+				F9D2C47D23B4CC5900466D2D /* LolChampionTestsChampionFlow.swift in Sources */,
 				F94FCE6D23B3F260006A25AD /* FakeChampion.swift in Sources */,
+				F9D2C48123B4CD2700466D2D /* SpyChampion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

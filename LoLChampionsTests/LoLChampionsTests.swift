@@ -39,5 +39,4 @@ class LoLChampionsTests: XCTestCase {
     func testChampionsViewTableDisplaysOneCellOnFirstSection() {
         XCTAssertEqual(sut.championsTableView.numberOfRows(inSection: 0), 1)
     }
-
 }
