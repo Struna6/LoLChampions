@@ -9,7 +9,6 @@
 import UIKit
 
 class ChampionsTableView : UITableView{
-    
 }
 
 

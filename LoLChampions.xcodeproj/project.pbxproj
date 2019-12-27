@@ -13,12 +13,16 @@
 		F94FCE6D23B3F260006A25AD /* FakeChampion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FCE6C23B3F260006A25AD /* FakeChampion.swift */; };
 		F94FCE6F23B3F557006A25AD /* Champion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FCE6E23B3F557006A25AD /* Champion.swift */; };
 		F94FCE7123B3F8CD006A25AD /* ChampionLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FCE7023B3F8CD006A25AD /* ChampionLoader.swift */; };
+		F96DE43823B5268400835ABF /* ChampionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96DE43723B5268400835ABF /* ChampionDetailsViewController.swift */; };
 		F9714A9F23B3E7510083CCA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9714A9E23B3E7510083CCA4 /* AppDelegate.swift */; };
 		F9714AA123B3E7510083CCA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9714AA023B3E7510083CCA4 /* SceneDelegate.swift */; };
 		F9714AA323B3E7510083CCA4 /* ChampionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9714AA223B3E7510083CCA4 /* ChampionsViewController.swift */; };
 		F9714AA823B3E7520083CCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9714AA723B3E7520083CCA4 /* Assets.xcassets */; };
 		F9714AAB23B3E7520083CCA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9714AA923B3E7520083CCA4 /* LaunchScreen.storyboard */; };
 		F9714AB623B3E7520083CCA4 /* LoLChampionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9714AB523B3E7520083CCA4 /* LoLChampionsTests.swift */; };
+		F98837B723B582090023DE3F /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98837B623B582090023DE3F /* StatView.swift */; };
+		F98837B923B5863E0023DE3F /* ChampionDetailsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98837B823B5863E0023DE3F /* ChampionDetailsLoader.swift */; };
+		F98837BB23B5867C0023DE3F /* ChampionDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98837BA23B5867C0023DE3F /* ChampionDetails.swift */; };
 		F9D2C47B23B4C6BF00466D2D /* ChampionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2C47A23B4C6BF00466D2D /* ChampionTableViewCell.swift */; };
 		F9D2C47D23B4CC5900466D2D /* LolChampionTestsChampionFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2C47C23B4CC5900466D2D /* LolChampionTestsChampionFlow.swift */; };
 		F9D2C48123B4CD2700466D2D /* SpyChampion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2C48023B4CD2700466D2D /* SpyChampion.swift */; };
@@ -47,6 +51,7 @@
 		F94FCE6C23B3F260006A25AD /* FakeChampion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeChampion.swift; sourceTree = "<group>"; };
 		F94FCE6E23B3F557006A25AD /* Champion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champion.swift; sourceTree = "<group>"; };
 		F94FCE7023B3F8CD006A25AD /* ChampionLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionLoader.swift; sourceTree = "<group>"; };
+		F96DE43723B5268400835ABF /* ChampionDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionDetailsViewController.swift; sourceTree = "<group>"; };
 		F9714A9B23B3E7510083CCA4 /* LoLChampions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoLChampions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9714A9E23B3E7510083CCA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9714AA023B3E7510083CCA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +62,9 @@
 		F9714AB123B3E7520083CCA4 /* LoLChampionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoLChampionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9714AB523B3E7520083CCA4 /* LoLChampionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoLChampionsTests.swift; sourceTree = "<group>"; };
 		F9714AB723B3E7520083CCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98837B623B582090023DE3F /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
+		F98837B823B5863E0023DE3F /* ChampionDetailsLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionDetailsLoader.swift; sourceTree = "<group>"; };
+		F98837BA23B5867C0023DE3F /* ChampionDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionDetails.swift; sourceTree = "<group>"; };
 		F9D2C47A23B4C6BF00466D2D /* ChampionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionTableViewCell.swift; sourceTree = "<group>"; };
 		F9D2C47C23B4CC5900466D2D /* LolChampionTestsChampionFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolChampionTestsChampionFlow.swift; sourceTree = "<group>"; };
 		F9D2C48023B4CD2700466D2D /* SpyChampion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyChampion.swift; sourceTree = "<group>"; };
@@ -108,7 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				F94FCE6E23B3F557006A25AD /* Champion.swift */,
+				F98837BA23B5867C0023DE3F /* ChampionDetails.swift */,
 				F94FCE7023B3F8CD006A25AD /* ChampionLoader.swift */,
+				F98837B823B5863E0023DE3F /* ChampionDetailsLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -117,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				F907629E23B3EC6E000C4465 /* ChampionsTableView.swift */,
+				F98837B623B582090023DE3F /* StatView.swift */,
 				F9D2C47A23B4C6BF00466D2D /* ChampionTableViewCell.swift */,
 				F9D2C48523B5074D00466D2D /* LoadingView.swift */,
 			);
@@ -129,6 +140,7 @@
 				F9714A9E23B3E7510083CCA4 /* AppDelegate.swift */,
 				F9714AA023B3E7510083CCA4 /* SceneDelegate.swift */,
 				F9714AA223B3E7510083CCA4 /* ChampionsViewController.swift */,
+				F96DE43723B5268400835ABF /* ChampionDetailsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -380,12 +392,16 @@
 			files = (
 				F9D2C47B23B4C6BF00466D2D /* ChampionTableViewCell.swift in Sources */,
 				F94FCE6F23B3F557006A25AD /* Champion.swift in Sources */,
+				F98837BB23B5867C0023DE3F /* ChampionDetails.swift in Sources */,
 				F907629F23B3EC6E000C4465 /* ChampionsTableView.swift in Sources */,
+				F98837B723B582090023DE3F /* StatView.swift in Sources */,
 				F9714AA323B3E7510083CCA4 /* ChampionsViewController.swift in Sources */,
+				F96DE43823B5268400835ABF /* ChampionDetailsViewController.swift in Sources */,
 				F94FCE7123B3F8CD006A25AD /* ChampionLoader.swift in Sources */,
 				F9D2C48423B501ED00466D2D /* StringRemoveCharsetsExtension.swift in Sources */,
 				F9714A9F23B3E7510083CCA4 /* AppDelegate.swift in Sources */,
 				F9714AA123B3E7510083CCA4 /* SceneDelegate.swift in Sources */,
+				F98837B923B5863E0023DE3F /* ChampionDetailsLoader.swift in Sources */,
 				F9D2C48623B5074D00466D2D /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,6 +17,7 @@ class ChampionsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
+        navigationItem.title = "League of Legends Champions"
         
         configureChampionsTableView()
         configureChampionsLoader()
@@ -75,7 +76,8 @@ extension ChampionsViewController{
     }
     
     private func configureLoadingViewConstraints(){
-        loadingView.snp.makeConstraints(){
+        guard loadingView.superview != nil else {return}
+        loadingView?.snp.makeConstraints(){
             $0.edges.equalToSuperview()
         }
     }
@@ -101,6 +103,12 @@ extension ChampionsViewController: UITableViewDelegate, UITableViewDataSource{
         cell.type2ImageView.image = (champion?.type.count ?? 0) > 1 ? champion?.type.last?.image : nil
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let champion = championsLoader.champions?[indexPath.row]
+        guard champion != nil else {return}
+        showDetailsVC(with: champion!)
+    }
 }
 
 //MARK: Conforming to ChampionsLoader delegates
@@ -115,3 +123,12 @@ extension ChampionsViewController: ChampionLoaderImplDelegate{
     }
 }
 
+//MARK: Handle detailsVC
+extension ChampionsViewController{
+    func showDetailsVC(with champion: Champion){
+        let detailsVC = ChampionDetailsViewController()
+        detailsVC.selectedChampion = champion
+        detailsVC.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(detailsVC, animated: true)
+    }
+}
